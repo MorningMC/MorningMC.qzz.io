@@ -1,0 +1,9 @@
+header {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.logo {
+	height: 8em;
+}

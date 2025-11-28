@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+@font-face {
+	font-family: "Fixedsys Excelsior 3.01";
+	src: url("/assets/fonts/FSEX300.ttf");
+}
+
+@font-face {
+	font-family: "FixedsysMono Nerd Font Mono";
+	src: url("/assets/fonts/FixedsysMono_Mod-NerdFont.ttf");
+}
+
+body {
+	color: white;
+	font-family: "FixedsysMono Nerd Font Mono", "Fixedsys Excelsior 3.01", monospace;
+	font-size: 16px;
+	tab-size: 4;
+	background: black;
+	background-size: 50%;
+}
+
+pre, p {
+	font-size: inherit;
+	font-family: inherit;
+	margin: 0;
+	padding: 0;
+}
+
+strong, summary, h1 {
+	font-size: inherit;
+	font-weight: inherit;
+	text-decoration: underline;
+	color: gold;
+}
+
+em {
+	color: gray;
+}
+
+.datetime {
+	color: darkgray;
+}
+
+a {
+	color: inherit;
+	text-decoration: dotted underline lightgray;
+}
+
+a:hover {
+	text-decoration-color: lightskyblue;
+}
+
+details:is([open]) {
+	margin-bottom: 1em;
+}
+
+noscript {
+	color: red;
+}
