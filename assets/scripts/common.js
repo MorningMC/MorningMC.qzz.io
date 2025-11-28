@@ -30,16 +30,16 @@ document.addEventListener("DOMContentLoaded", () => {
 	}).join("  ");
 
 	// Header HTML content with placeholder for dynamic time
-	const headerHTML =
+	const header =
 		`<header>
 			<img class="logo" src="${pathPrefix}/assets/images/logo.png" alt="logo">
 		</header>
-		<nav><pre>${navBar}</pre></nav>`;
+		<nav><pre class="nav-content">${navBar}</pre></nav>`;
 
 	// Footer HTML content
-	const footerHTML =
+	const footer =
 		`<footer>
-			<p>
+			<p class="footer-content">
 				Powered by <a href="https://pages.github.com/">GitHub Pages</a>. View source <a href="https://github.com/MorningMC/MorningMC.github.io">here</a>.
 				<br>
 				Copyright (c) 2025 MorningMC <span style='color: darkgray'>lincensed under <a href="https://mit-license.org/">MIT License</a>. Full document see <a href="${pathPrefix}LICENSE.txt">here</a>.</span>
@@ -47,6 +47,6 @@ document.addEventListener("DOMContentLoaded", () => {
 		</footer>`;
 
 	// Insert the header and footer
-	body.insertAdjacentHTML("afterbegin", headerHTML);
-	body.insertAdjacentHTML("beforeend", footerHTML);
+	body.insertAdjacentHTML("afterbegin", header);
+	body.insertAdjacentHTML("beforeend", footer);
 });

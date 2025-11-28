@@ -1,7 +1,8 @@
 @charset "UTF-8";
-@import "header.css";
-@import "navbar.css";
-@import "footer.css";
+@import "default/header.css";
+@import "default/navbar.css";
+@import "default/footer.css";
+@import "default/startup.css";
 
 @font-face {
 	font-family: "Fixedsys Excelsior 3.01";
@@ -18,7 +19,12 @@ body {
 	font-family: "FixedsysMono Nerd Font Mono", "Fixedsys Excelsior 3.01", monospace;
 	font-size: 16px;
 	tab-size: 4;
-	background: url("/assets/images/background.png") no-repeat center center fixed;
+	background: url("/assets/images/background.png") center center no-repeat fixed;
+	background-size: cover;
+}
+
+main {
+	overflow: auto;
 }
 
 pre, p {

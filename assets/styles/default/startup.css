@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+@keyframes float {
+	from {
+		margin-bottom: 4em;
+	}
+	to {
+		margin-top: 0;
+	}
+}
+
+header {
+	animation: float 1s both;
+}
+
+@keyframes bar-stretch {
+	from {
+		width: 0;
+	}
+	to {
+		width: 100%;
+	}
+}
+
+nav, footer::before {
+	animation: bar-stretch 1s both;
+}
+
+@keyframes fade-in {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+main, .logo, .nav-content, .footer-content {
+	animation: fade-in 1s both;
+}
