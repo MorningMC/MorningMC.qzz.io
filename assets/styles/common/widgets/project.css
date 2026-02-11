@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+.project-archive::before {
+	content: "[Archive]";
+	color: orange;
+}
+
+.project-fork::before {
+	content: "[Fork]";
+	color: deepskyblue;
+}
+
+.project-template::before {
+	content: "[Template]";
+	color: aquamarine;
+}

@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+.status-online::after {
+	content: "ONLINE";
+	color: green;
+}
+
+.status-offline::after {
+	content: "OFFLINE";
+	color: red;
+}

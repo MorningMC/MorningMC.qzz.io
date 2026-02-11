@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+.c-mail {
+	color: #3376CD;
+}
+
+.c-mail::before {
+	background-image: url("https://res.public.onecdn.static.microsoft/owamail/20250307002.15/resources/images/favicons/mail-seen.ico");
+}
+
+.c-github::before {
+	background-image: url("https://github.githubassets.com/favicons/favicon-dark.png");
+}
+
+.c-bilibili {
+	color: #479FD1;
+}
+
+.c-bilibili::before {
+	background-image: url("/assets/images/bilibili.ico");
+}
+
+.c-youtube {
+	color: #FF0033;
+}
+
+.c-youtube::before {
+	background-image: url("https://www.youtube.com/s/desktop/7029e4b3/img/logos/favicon_32x32.png");
+}
+
+.c-zhihu {
+	color: #0084FF;
+}
+
+.c-zhihu::before {
+	background-image: url("https://static.zhihu.com/heifetz/favicon.ico");
+}
+
+.c-discord {
+	color: #5063F2;
+}
+
+.c-discord::before {
+	background-image: url("/assets/images/discord.png");
+}
+
+.c-x::before {
+	background-image: url("https://abs.twimg.com/favicons/twitter.3.ico");
+}
+
+.c-reddit {
+	color: #EB5528;
+}
+
+.c-reddit::before {
+	background-image: url("https://www.redditstatic.com/shreddit/assets/favicon/64x64.png");
+}
+
+.c-mcforum {
+	color: #7FB64D;
+}
+
+.c-mcforum::before {
+	background-image: url("https://media.minecraftforum.net/avatars/0/1/635356669593325566.png");
+}
+
+.c-namemc::before {
+	background-image: url("https://s.namemc.com/img/favicon-16.png");
+}
+
+.c-wechat {
+	color: #51AA38;
+}
+
+.c-wechat::before {
+	background-image: url("https://newres.wechat.com/t/fed_upload/25d133b0-63d9-4102-857c-5cc84c752232/NTI4MWU5.ico");
+}
+
+.c-qq::before {
+	background-image: url("https://qzonestyle.gtimg.cn/qzone/qzact/act/external/tiqq/logo.png");
+}
+
+.c-mail::before, .c-github::before, .c-bilibili::before, .c-youtube::before, .c-zhihu::before, .c-discord::before, .c-x::before, .c-reddit::before, .c-mcforum::before, .c-namemc::before, .c-wechat::before, .c-qq::before {
+	content: "";
+	background-repeat: no-repeat;
+	background-size: contain;
+	display: inline-block;
+	width: 1em;
+	height: 1em;
+	margin-right: 0.5em;
+}

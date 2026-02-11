@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+.license-cc::after {
+	background-image: url("https://mirrors.creativecommons.org/presskit/icons/cc.svg");
+}
+
+.license-by::after {
+	background-image: url("https://mirrors.creativecommons.org/presskit/icons/by.svg");
+}
+
+.license-sa::after {
+	background-image: url("https://mirrors.creativecommons.org/presskit/icons/sa.svg");
+}
+
+.license-cc::after, .license-by::after, .license-sa::after {
+	content: "";
+	background-repeat: no-repeat;
+	background-size: contain;
+	display: inline-block;
+	width: 1em;
+	height: 1em;
+	margin-left: 0.2em;
+}
