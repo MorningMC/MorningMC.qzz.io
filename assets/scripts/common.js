@@ -24,16 +24,18 @@ const navigationBarContent = navigationLinks.map((link, index) => {
 
 // Header HTML content
 const header = `<header>
-	<img class="logo" src="${pathPrefix}/assets/images/logo.png" alt="logo">
+	<img class="logo" src="${pathPrefix}assets/images/logo.png" alt="logo">
 </header>
-<nav><pre class="nav-content">${navigationBarContent}</pre></nav>`;
+<nav>
+	<pre class="nav-content">${navigationBarContent}</pre>
+</nav>`;
 
 // Footer HTML content
 const footer = `<footer>
 	<p class="footer-content">
 		Powered by <a href="https://pages.github.com/">GitHub Pages</a>. View source <a href="https://github.com/MorningMC/MorningMC.qzz.io">here</a>.
 		<br>
-		Copyright (c) 2025 MorningMC <span style='color: darkgray'>lincensed under <a href="https://mit-license.org/">MIT License</a>. Full document see <a href="${pathPrefix}LICENSE.txt">here</a>.</span>
+		Copyright (c) 2025 MorningMC. This website is licensed under <a href="${pathPrefix}LICENSE.txt">MIT License</a>.
 	</p>
 </footer>`;
 

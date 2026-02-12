@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+@font-face {
+	font-family: "JetBrainsMonoNL NFM";
+	src: url("/assets/fonts/JetBrainsMonoNLNerdFontMono-Regular.ttf");
+}
+
+@font-face {
+	font-family: "Fixedsys Excelsior 3.01";
+	src: url("/assets/fonts/FSEX300.ttf");
+}
+
+@font-face {
+	font-family: "FixedsysMono Nerd Font Mono";
+	src: url("/assets/fonts/FixedsysMono_Mod-NerdFont.ttf");
+}

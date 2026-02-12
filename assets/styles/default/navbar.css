@@ -1,8 +1,6 @@
 @charset "UTF-8";
 
 nav {
-	--background-color: #2B2B2B;
-
 	position: relative;
 	padding: 0.25em;
 	margin: 0.5em auto 0.5em auto;
@@ -10,7 +8,7 @@ nav {
 	width: 100%;
 	box-sizing: border-box;
 	border-radius: 0.75em;
-	background: var(--background-color);
+	background: #2B2B2B;
 
 	display: flex;
 	justify-content: center;
@@ -50,4 +48,8 @@ nav::before, nav::after {
 
 nav::before {
 	filter: blur(10px);
+}
+
+.nav-indicator {
+	color: goldenrod;
 }

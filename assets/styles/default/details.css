@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+details[open] {
+	margin-bottom: 1em;
+}
+
+summary {
+	font-weight: bold;
+	list-style: none;
+}
+
+summary::-webkit-details-marker {
+	display: none;
+}
+
+summary::before {
+	content: "[+] ";
+	color: darkgray;
+	font-weight: normal;
+}
+
+details[open] summary::before {
+	content: "[-] ";
+}

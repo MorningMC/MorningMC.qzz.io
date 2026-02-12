@@ -1,15 +1,5 @@
 @charset "UTF-8";
-@import "common/widgets.css";
-
-@font-face {
-	font-family: "Fixedsys Excelsior 3.01";
-	src: url("/assets/fonts/FSEX300.ttf");
-}
-
-@font-face {
-	font-family: "FixedsysMono Nerd Font Mono";
-	src: url("/assets/fonts/FixedsysMono_Mod-NerdFont.ttf");
-}
+@import "../common/main.css";
 
 body {
 	color: white;
@@ -53,4 +43,8 @@ details:is([open]) {
 
 noscript {
 	color: red;
+}
+
+.datetime {
+	color: darkgray;
 }

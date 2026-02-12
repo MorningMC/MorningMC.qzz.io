@@ -1,24 +1,10 @@
 @charset "UTF-8";
-@import "common/widgets.css";
-@import "default/header.css";
-@import "default/navbar.css";
-@import "default/footer.css";
-@import "default/startup-animations.css";
-
-@font-face {
-	font-family: "JetBrainsMonoNL NFM";
-	src: url("/assets/fonts/JetBrainsMonoNLNerdFontMono-Regular.ttf");
-}
-
-@font-face {
-	font-family: "Fixedsys Excelsior 3.01";
-	src: url("/assets/fonts/FSEX300.ttf");
-}
-
-@font-face {
-	font-family: "FixedsysMono Nerd Font Mono";
-	src: url("/assets/fonts/FixedsysMono_Mod-NerdFont.ttf");
-}
+@import "header.css";
+@import "navbar.css";
+@import "footer.css";
+@import "startup-animations.css";
+@import "details.css";
+@import "../common/main.css";
 
 body {
 	color: white;
@@ -48,6 +34,11 @@ h1, h2, h3, h4, h5, h6 {
 	margin-bottom: 0;
 }
 
+ol {
+	margin: 0;
+	padding-left: 2em;
+}
+
 ul {
 	margin: 0;
 	padding-left: 1.5em;
@@ -58,10 +49,6 @@ strong {
 	font-weight: inherit;
 	text-decoration: underline;
 	color: gold;
-}
-
-summary {
-	font-weight: bold;
 }
 
 em {
@@ -86,10 +73,6 @@ table {
 th, td {
 	padding: 0 2em 0 2em;
 	border: gray 1px solid;
-}
-
-details:is([open]) {
-	margin-bottom: 1em;
 }
 
 noscript {
