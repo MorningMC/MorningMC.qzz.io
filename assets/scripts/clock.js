@@ -20,4 +20,4 @@ const updateClock = () => {
 };
 
 updateClock(); // Initialize clock
-setInterval(updateClock, 64); // Avoid making last digits of millisecond the same all the time
+setInterval(updateClock, 67); // Using a prime number (67) as update interval to avoid making last digits of millisecond the same all the time
