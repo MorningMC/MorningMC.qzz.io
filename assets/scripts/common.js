@@ -33,9 +33,9 @@ const header = `<header>
 // Footer HTML content
 const footer = `<footer>
 	<p class="footer-content">
-		Powered by <a href="https://pages.github.com/">GitHub Pages</a>. View source <a href="https://github.com/MorningMC/MorningMC.qzz.io">here</a>.
+		Powered by <a href="https://vercel.com/">Vercel</a>. View source <a href="https://github.com/MorningMC/MorningMC.qzz.io">here</a>.
 		<br>
-		Copyright (c) 2025 MorningMC. This website is licensed under <a href="${pathPrefix}LICENSE.txt">MIT License</a>.
+		Copyright (c) 2025 MorningMC. Source code is licensed under <a href="${pathPrefix}LICENSE.txt">MIT License</a>.
 	</p>
 </footer>`;
 
