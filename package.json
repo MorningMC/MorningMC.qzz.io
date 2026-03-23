@@ -1,0 +1,14 @@
+{
+  "name": "morningmc-website",
+  "version": "1.0.0",
+  "description": "MorningMC's personal website",
+  "private": true,
+  "scripts": {
+    "dev": "python3 -m http.server 8000",
+    "build": "echo 'Static site, no build needed'",
+    "lint": "echo 'No linting configured yet'"
+  },
+  "dependencies": {
+    "@vercel/speed-insights": "^1.0.0"
+  }
+}

@@ -114,3 +114,6 @@ Gemfile.lock
 
 ### User defined
 /.idea/
+
+# Node.js dependencies
+node_modules/
