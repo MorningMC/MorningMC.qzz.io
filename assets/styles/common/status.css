@@ -1,11 +1,21 @@
 @charset "UTF-8";
 
-.status-online::after {
-	content: "ONLINE";
+.status-available::before {
+	content: "AVAILABLE";
 	color: green;
 }
 
-.status-offline::after {
-	content: "OFFLINE";
+.status-not-available::before {
+	content: "NOT AVAILABLE";
 	color: red;
+}
+
+.status-partially-available::before {
+	content: "PARTIALLY AVAILABLE";
+	color: yellow;
+}
+
+.status-not-implemented::before {
+	content: "NOT IMPLEMENTED";
+	color: gray;
 }
